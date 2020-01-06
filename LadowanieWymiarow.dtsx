@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="12/21/2019 4:42:59 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-3VPGLSQ"
+  DTS:CreatorName="DESKTOP-3VPGLSQ\krzys"
+  DTS:DTSID="{BD4013EF-7C8C-4CC1-BEB6-03B698117F61}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.1900.80"
+  DTS:LocaleID="1045"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{58084F83-8EB5-4055-96C0-8B5B86616210}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-3VPGLSQ\LOCALKRZYSZTOF.AdventureWorks2014]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{B43AF474-70C2-4B42-8EE8-9F12A60E07D3}"
+      DTS:ObjectName="DESKTOP-3VPGLSQ\LOCALKRZYSZTOF.AdventureWorks2014">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-3VPGLSQ\LOCALKRZYSZTOF;Initial Catalog=AdventureWorks2014;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-3VPGLSQ\LOCALKRZYSZTOF.AW_STAGEMroziewicz]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{5C6EE02D-1DBD-4CBF-A788-638A6BD378E2}"
+      DTS:ObjectName="DESKTOP-3VPGLSQ\LOCALKRZYSZTOF.AW_STAGEMroziewicz">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-3VPGLSQ\LOCALKRZYSZTOF;Initial Catalog=AW_STAGEMroziewicz;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
